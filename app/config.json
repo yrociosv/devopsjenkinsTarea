@@ -1,0 +1,25 @@
+{
+  "db": {
+    "host": "mgg.vps.webdock.cloud",
+    "port": 5432,
+    "dbname": "dmc",
+    "user": "usr_ro_dmc_rrhh_estudiantes",
+    "password": "fZp!jHt0j6%89^B4I*L*29bz4b^"
+  },
+  "smtp": {
+    "server": "sandbox.smtp.mailtrap.io",
+    "port": 587,
+    "user": "0c6be00fac5f42",
+    "password": "a4b3da5932123c",
+    "sender_email": "Python DataOps <pydataops@example.com>"
+  },
+  "paths": {
+    "csv":  "ComisionEmpleados_V1_202505.csv",
+    "excel": "ComisionesCalculadas.xlsx"
+  },
+  "report": {
+    "to": "tecnologias.yg@gmail.com",
+    "subject": "Yolanda PRD - Comisiones Calculadas",
+    "body_html": "Estimado(a), <br>Adjunto encontrarás el archivo con las comisiones calculadas.<br>Saludos."
+  }
+}
