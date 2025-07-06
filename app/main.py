@@ -100,6 +100,9 @@ def main() -> None:
         ),
         axis=1
     )
+    
+    # 3.8 solo comisiones diferentes a 0
+    merged[merged["comision_calculada"] != Decimal("0.00")]
    
     # 3.8  Guardar resultado en Excel
     excel_out = Path(PATHS["excel"])
