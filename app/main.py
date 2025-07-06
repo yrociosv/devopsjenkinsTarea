@@ -102,7 +102,7 @@ def main() -> None:
     )
     
     # 3.8 solo comisiones diferentes a 0
-    merged[merged["comision_calculada"] != 0]
+    merged[merged["comision_calculada"]=="0"]
    
     # 3.8  Guardar resultado en Excel
     excel_out = Path(PATHS["excel"])
